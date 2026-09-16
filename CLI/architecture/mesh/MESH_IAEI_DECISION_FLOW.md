@@ -82,13 +82,13 @@ Each transition should preserve provenance, the inputs considered, the decision 
 
 ## ATLED: working concept
 
-`ATLED` is currently a placeholder name for a composite change signal. A useful draft interpretation is:
+`ATLED` is the composite signal defined by the following five dimensions:
 
 - **A — Altruism:** observable benefit to other affected entities, not an assumed inner virtue;
-- **T — Timeframe:** the relevant sequence or temporal window for the interaction;
+- **T — Time:** the relevant sequence, duration, and temporal window for the interaction;
 - **L — Longevity:** how long effects persist, scaled against time invested or exposure;
 - **E — Energy:** resources consumed, produced, transferred, or depleted, including system coherence;
-- **D — Delta:** the measured change between the initial and updated states.
+- **D — Decision:** the resulting choice, commitment, reframe, alteration, isolation, or request for more evidence.
 
 This is not yet a validated formula. A later design should define units, normalization, weighting, and whether the dimensions may be compared at all.
 
