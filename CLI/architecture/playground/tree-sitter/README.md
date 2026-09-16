@@ -8,5 +8,6 @@ A small, architecture-oriented parsing playground for the Gemini CLI repository.
 - `queries/` — language-specific Tree-sitter query files.
 - `fixtures/` — minimal JavaScript and TypeScript inputs.
 - `examples/` — command notes and experiments.
+- `regressions/` — pinned upstream parser regressions with focused tests, fixes, and reproducible verification scripts.
 
 The YAML file describes inputs and checks; it does not download grammars or vendor the Tree-sitter CLI. Keep generated parser output under `.generated/` and out of Git.
