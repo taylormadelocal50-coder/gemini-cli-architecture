@@ -14,7 +14,6 @@ A focused workspace for experimenting with Gemini CLI architecture, Tree-sitter-
 | [`config/`](config/) | Agent policies, prompt definitions, and workflow configuration |
 | [`scripts/`](scripts/) | Local review and CI-support utilities |
 | [`evals/`](evals/) | Evaluation fixtures and reference test material |
-| [`playground/tree-sitter/`](playground/tree-sitter/) | Tree-sitter queries, language fixtures, and runnable experiment notes |
 | [`ci.mjs`](ci.mjs) | CI monitoring utility kept at the root for direct invocation |
 | [`package.json`](package.json) | Node.js package metadata and project commands |
 
