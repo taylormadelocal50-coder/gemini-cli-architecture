@@ -53,3 +53,13 @@ MESH_STATE {
 | Coherence | Internal consistency, system harmony, contradiction, and instability |
 | Decision | Available choices, predicted outcomes, reversibility, and uncertainty |
 | Longevity | Immediate, persistent, and cumulative effects |
+
+## Impact Density
+
+Impact density relates persistent effect to the time invested:
+
+```text
+Impact Density = persistent_effect
+                 ─────────────────
+                   time invested
+```
