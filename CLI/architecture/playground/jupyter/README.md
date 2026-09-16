@@ -9,6 +9,7 @@ cd CLI/architecture/playground/jupyter
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
+python -m pip install jupyterlab
 python -m pip install -r requirements.txt
 jupyter lab notebooks
 ```

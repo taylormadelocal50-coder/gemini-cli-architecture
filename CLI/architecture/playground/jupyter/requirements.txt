@@ -1,1 +1,2 @@
 jupyter==1.1.1
+jupyterlab==4.6.3
