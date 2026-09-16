@@ -2,7 +2,7 @@
   "name": "@google/gemini-cli",
   "version": "0.61.0-nightly.20260908.gc647533d6",
   "engines": {
-    "node": ">=20.0.0"
+    "node": ">=24.0.0"
   },
   "type": "module",
   "workspaces": [
