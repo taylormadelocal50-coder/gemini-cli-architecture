@@ -20,4 +20,4 @@ coverage/
 *.swp
 
 # Tree-sitter generated parser/query output
-playground/tree-sitter/.generated/
+CLI/architecture/playground/tree-sitter/.generated/

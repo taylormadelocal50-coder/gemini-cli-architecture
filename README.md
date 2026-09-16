@@ -30,11 +30,11 @@ The asynchronous pull-request review helpers live in [`scripts/`](scripts/). The
 
 ## Running the Tree-sitter playground
 
-Install the Tree-sitter CLI using your package manager, then run it from the repository root. The playground configuration and query fixtures live under [`architecture/playground/tree-sitter/`](architecture/playground/tree-sitter/).
+Install the Tree-sitter CLI using your package manager, then run it from the repository root. The playground configuration and query fixtures live under [`CLI/architecture/playground/tree-sitter/`](CLI/architecture/playground/tree-sitter/).
 
 ```bash
 npm install --save-dev tree-sitter-cli
-cd architecture/playground/tree-sitter
+cd CLI/architecture/playground/tree-sitter
 npx tree-sitter parse fixtures/javascript/basic.js
 npx tree-sitter query queries/javascript/functions.scm fixtures/javascript/basic.js
 ```
