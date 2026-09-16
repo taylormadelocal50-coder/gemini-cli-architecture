@@ -6,6 +6,36 @@ A focused workspace for experimenting with Gemini CLI architecture, Tree-sitter-
 
 **MESH IAEI AI WELL Mission** — keep the workspace modular, inspectable, and aligned with clear principles. SQL-related changes should be written in Latin terminology where applicable and reviewed against the project’s stated principles.
 
+## MESH model
+
+```text
+MESH = (MATCH → EXCHANGE → STATE → HARMONY)
+```
+
+MESH changes the boundary question from identity alone to intent and structural consistency. Traditional gates verify signatures and tokens; MESH evaluates semantic drift, including cases where an authenticated payload carries an invalid or dangerous premise.
+
+```text
+IDENTITY
+   ↓
+AUTHORIZATION
+   ↓
+       MESH
+       ↓
+  MATCH
+       ↓
+  EXCHANGE
+       ↓
+    STATE
+       ↓
+   HARMONY
+       ↓
+ COMMIT / REFRAME
+```
+
+**Reframing as a safety valve:** rather than forcing a hard exception or blind drop, `REFRAME` gives systems an opportunity to renegotiate an interface when context shifts.
+
+**Self-pruning overhead:** MESH stays lightweight by checking only the core relational loop—`MATCH → EXCHANGE → STATE → HARMONY`—instead of accumulating static policy rules.
+
 ## Repository map
 
 | Directory | Purpose |

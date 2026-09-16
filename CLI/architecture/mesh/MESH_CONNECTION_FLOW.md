@@ -1,6 +1,12 @@
 # MESH Connection Flow
 
-MESH evaluates a relationship through four stages: **match**, **exchange**, **state**, and **harmony**. The resulting action is to accept, alter, or isolate the relationship.
+MESH evaluates a relationship through four stages: **match**, **exchange**, **state**, and **harmony**.
+
+```text
+MESH = (MATCH → EXCHANGE → STATE → HARMONY)
+```
+
+The resulting action is to accept, alter, or isolate the relationship.
 
 ```text
               ┌──────────────┐
