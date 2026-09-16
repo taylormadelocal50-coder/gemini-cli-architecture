@@ -25,3 +25,7 @@ CLI/architecture/playground/tree-sitter/.generated/
 # Jupyter local environment and notebook checkpoints
 CLI/architecture/playground/jupyter/.venv/
 CLI/architecture/playground/jupyter/**/.ipynb_checkpoints/
+
+# Latin SQL sandbox environment and notebook checkpoints
+CLI/architecture/playground/latin-sql-sandbox/.venv/
+CLI/architecture/playground/latin-sql-sandbox/**/.ipynb_checkpoints/
