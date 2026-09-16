@@ -28,6 +28,19 @@ A focused workspace for experimenting with Gemini CLI architecture, Tree-sitter-
 
 The asynchronous pull-request review helpers live in [`scripts/`](scripts/). They write temporary review state under `.gemini/tmp/`, which is intentionally ignored by Git. Run them from the repository root so Git and package commands resolve consistently.
 
+## Running the Tree-sitter playground
+
+Install the Tree-sitter CLI using your package manager, then run it from the repository root. The playground configuration and query fixtures live under [`architecture/playground/tree-sitter/`](architecture/playground/tree-sitter/).
+
+```bash
+npm install --save-dev tree-sitter-cli
+cd architecture/playground/tree-sitter
+npx tree-sitter parse fixtures/javascript/basic.js
+npx tree-sitter query queries/javascript/functions.scm fixtures/javascript/basic.js
+```
+
+Use the TypeScript fixture and query in the same way when the TypeScript grammar is available. The `tree-sitter.yml` file records the intended grammar, fixture, query, and check pairings. Generated output should remain under `.generated/` and is ignored by Git.
+
 ## Contribution and security
 
 See [`CONTRIBUTING.md`](docs/CONTRIBUTING.md) for contribution expectations and [`SECURITY.md`](docs/SECURITY.md) for reporting security issues.
