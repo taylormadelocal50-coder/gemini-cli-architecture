@@ -18,3 +18,6 @@ coverage/
 .idea/
 .vscode/
 *.swp
+
+# Tree-sitter generated parser/query output
+playground/tree-sitter/.generated/

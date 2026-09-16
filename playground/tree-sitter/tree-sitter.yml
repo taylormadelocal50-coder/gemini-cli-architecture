@@ -1,0 +1,31 @@
+name: gemini-cli-architecture-tree-sitter
+version: 1
+purpose: architecture-playground
+
+# Languages exercised by the playground. Grammar installation is intentionally
+# external; this file describes the reproducible query/fixture contract.
+languages:
+  javascript:
+    grammar: tree-sitter-javascript
+    fixture: fixtures/javascript/basic.js
+    queries:
+      - queries/javascript/functions.scm
+  typescript:
+    grammar: tree-sitter-typescript
+    fixture: fixtures/typescript/basic.ts
+    queries:
+      - queries/typescript/types.scm
+
+architecture:
+  source: fixtures
+  queries: queries
+  examples: examples
+  generated: .generated
+
+checks:
+  - name: javascript-function-captures
+    language: javascript
+    query: queries/javascript/functions.scm
+  - name: typescript-type-captures
+    language: typescript
+    query: queries/typescript/types.scm
