@@ -21,3 +21,7 @@ coverage/
 
 # Tree-sitter generated parser/query output
 CLI/architecture/playground/tree-sitter/.generated/
+
+# Jupyter local environment and notebook checkpoints
+CLI/architecture/playground/jupyter/.venv/
+CLI/architecture/playground/jupyter/**/.ipynb_checkpoints/
