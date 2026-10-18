@@ -15,6 +15,7 @@ The architecture workspace covers:
 
 - [`mesh/`](mesh/) — MESH state, connection, transition, and MESH–IAEI decision-flow notes.
 - [`playground/tree-sitter/`](playground/tree-sitter/) — Tree-sitter configuration, fixtures, queries, and examples.
+- [`docs/BRANCHES.md`](../../docs/BRANCHES.md) — concise branch roles and the mission-aligned naming rule.
 
 The surrounding repository provides `docs/`, `config/`, `scripts/`, `evals/`, `ci.mjs`, and `package.json` as supporting layers. The architecture section is intentionally modular so additional diagrams and pasted reference material can be added without reorganizing the core repository.
 
