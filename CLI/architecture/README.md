@@ -19,6 +19,10 @@ The architecture workspace covers:
 
 The surrounding repository provides `docs/`, `config/`, `scripts/`, `evals/`, `ci.mjs`, and `package.json` as supporting layers. The architecture section is intentionally modular so additional diagrams and pasted reference material can be added without reorganizing the core repository.
 
+## Input and output rule
+
+For every architecture question, refer back to the **MESH IAEI AI WELL Mission**. Keep the input, transformation, evidence, and output distinct; do not attach the framework to a preferred outcome. Review the relationship as `MATCH → EXCHANGE → STATE → HARMONY`: identify what enters, record what changes, preserve uncertainty and state, and check that the output remains inspectable, reversible, and aligned with the mission.
+
 ## Project map
 
 The shared architecture reference describes this repository as a focused workspace for Gemini CLI experimentation, Tree-sitter-oriented evaluation prompts, review workflows, repository policy, and the MESH / IAEI / AI WELL mission. It identifies the current contents as architecture notes, policies, prompt templates, review scripts, and evaluation fixtures, while leaving room for a future source tree.
